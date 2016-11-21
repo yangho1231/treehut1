@@ -1,0 +1,19 @@
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+display: block;
+height: auto;
+max-width: 100%;
+width: 100%; // Add this
+
+}
+.carousel-caption {
+  top: 20%;
+
+}
+.carousel-indicators li {
+  border-radius: 0;
+  width: 50px;
+}
+.carousel-indicators li.active {
+  border-radius: 0;
+  width: 50px;
+}
